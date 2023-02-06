@@ -29,13 +29,22 @@
     flex-direction: row-reverse;
 }
 
+
+
+.colstretch{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content:stretch;
+}
+
 /*HEADER*/
 
 .header-back{
     background-color: #a0dbe5;
     
     /*DEBUG*/
-    border: 1px solid black;
+    border: 2px solid black;
     min-height:100px;
 }
 
@@ -74,12 +83,13 @@
 
 /*BOTTOM MAIN PART*/
 .bottom-container{
-    padding:25px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 .bottom-banner{
     background-color: #008a30;
-    padding:20px;
+
     /*DEBUG*/
     border: 2px dashed black;
     min-height: 700px;
@@ -92,7 +102,8 @@
 
 .cardcontainer{
     margin-top: 20px;
-    padding:20px;
+    padding-top:20px;
+    padding-bottom:20px;
 
     /*DEBUG*/
     border: 1px dashed black;
@@ -115,4 +126,32 @@
     /*DEBUG*/
     border: 1px dashed black;
     min-height: 300px;
+}
+
+/*FOOTER*/
+
+.blackground{
+    background-color: #262a2c;
+}
+
+.top-footer{
+    margin-top:20px;
+    
+    /*DEBUG*/
+    min-height:400px;
+    border: 1px dashed white;
+}
+
+.bottom-footer{
+    margin-top:20px;
+
+    /*DEBUG*/
+    min-height:100px;
+    border: 1px dashed red;
+}
+
+/*TOP FOOTER COLUMNS*/
+
+.maincolumn{
+
 }
