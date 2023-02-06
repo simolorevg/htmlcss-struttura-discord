@@ -11,6 +11,10 @@
     margin:0 auto;
 }
 
+body{
+    font-family:sans-serif;
+}
+
 /*FLEXBOX*/
 
 .flexrwcenter{
@@ -66,32 +70,37 @@
 .header-nav{
     background-color: #e9a11f;
     margin:10px;
+    height:40px;
 
     /*DEBUG*/
-    min-height:50px;
     /* border: 1px dashed black; */
 }
 
 .logo-header{
     width:200px;
     text-align: left;
+    display: inline-block;
+    padding:10px;
 
     /*DEBUG*/
     border: 1px dashed black;
 }
 
-.header-search{
+.header-login{
     width:200px;
+    padding:10px;
     text-align: right;
+    
+    /*DEBUG*/
     border: 1px dashed black;
 }
 
 .header-link{
     display:flex;
     flex-grow: 1;
-    padding: 10px;
-
-    /*BORDER*/
+    padding:10px;
+    
+    /*DEBUG*/
     border:1px dashed black;
 }
 
