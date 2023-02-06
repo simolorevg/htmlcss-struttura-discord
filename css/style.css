@@ -24,6 +24,12 @@
     justify-content: flex-start;
 }
 
+.flexspacebtwcenter{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
 .rowreverse{
     display: flex;
     flex-direction: row-reverse;
@@ -142,6 +148,7 @@
 
 .bottom-footer{
     margin-top:20px;
+    background-color: #0dffd5;
 
     /*DEBUG*/
     min-height:100px;
@@ -166,7 +173,19 @@
 }
 
 .linkcolumn{
-    width:(100%/4);
+    
     /*DEBUG*/
     border: 1px solid white;
+}
+
+/*BOTTOM FOOTER SECTION*/
+
+.frappecolour{
+    background-color: #ffb2b8;
+}
+
+.bottom-footer-block{
+    width: 60px;
+    padding: 5px;
+    text-align: center;
 }
