@@ -19,6 +19,16 @@
     align-items: center;
 }
 
+.flexstart{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.rowreverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /*HEADER*/
 
 .header-back{
@@ -54,19 +64,30 @@
 
 /*MAIN*/
 
-.cardcontainer{
-    display: flex;
+.greybackground{
+    background-color: #d7d4cf;
     margin-top: 20px;
-    justify-content: flex-start;
+}
+
+
+
+
+
+
+/*MAIN CARD CONTAINER*/
+.cardcontainer{
+    margin-top: 20px;
+    padding:20px;
 
     /*DEBUG*/
     border: 1px dashed black;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .bluecard{
     background-color: #008fff;
     flex-grow: 1;
+
     /*DEBUG*/
     border: 1px dashed black;
     min-height: 300px;
@@ -75,6 +96,7 @@
 .pinkcard{
     background-color:#ffbec4;
     flex-grow: 0.6;
+
     /*DEBUG*/
     border: 1px dashed black;
     min-height: 300px;
