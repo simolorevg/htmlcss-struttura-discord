@@ -66,16 +66,23 @@
 
 .greybackground{
     background-color: #d7d4cf;
-    margin-top: 20px;
+}
+
+
+
+
+
+/*BOTTOM MAIN PART*/
+.bottom-container{
+    padding:25px;
 }
 
 .bottom-banner{
     background-color: #008a30;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding:20px;
     /*DEBUG*/
     border: 2px dashed black;
-    min-height: 400px;
+    min-height: 700px;
 }
 
 
