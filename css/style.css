@@ -29,8 +29,6 @@
     flex-direction: row-reverse;
 }
 
-
-
 .colstretch{
     display: flex;
     flex-direction: column;
@@ -153,5 +151,22 @@
 /*TOP FOOTER COLUMNS*/
 
 .maincolumn{
+    flex-grow:0.4;
+    background-color: #ff7671;
 
+    /*DEBUG*/
+    border: 2px dashed white;
+}
+
+.linkpart{
+    background-color: #00b4a6;
+    flex-grow: 1;
+    /*DEBUG*/
+    border: 2px dashed white;
+}
+
+.linkcolumn{
+    width:(100%/4);
+    /*DEBUG*/
+    border: 1px solid white;
 }
