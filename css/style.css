@@ -6,7 +6,7 @@
 }
 
 /*COMMON*/
-.container{
+.center{
     width:80%;
     margin:0 auto;
 }
@@ -50,4 +50,32 @@
     
     /*DEBUG*/
     border: 3px dashed black;
+}
+
+/*MAIN*/
+
+.cardcontainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+
+    /*DEBUG*/
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.bluecard{
+    background-color: #008fff;
+    flex-grow: 1;
+    /*DEBUG*/
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.pinkcard{
+    background-color:#ffbec4;
+    flex-grow: 0.6;
+    /*DEBUG*/
+    border: 1px dashed black;
+    min-height: 300px;
 }
