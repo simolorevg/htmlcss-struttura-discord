@@ -11,21 +11,43 @@
     margin:0 auto;
 }
 
-/*HEADER*/
-.header-back{
-    background-color: #a0dbe5;
+/*FLEXBOX*/
+
+.flexrwcenter{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+/*HEADER*/
+
+.header-back{
+    background-color: #a0dbe5;
+    
     /*DEBUG*/
     border: 1px solid black;
     min-height:100px;
 }
+
 .header-nav{
-    display:flex;
     background-color: #e9a11f;
     margin:10px;
 
     /*DEBUG*/
     min-height:50px;
+    border: 1px dashed black;
+}
+
+.header-banner-back{
+    background-color: #000282;
+    min-height: 500px;
+}
+
+.header-banner{
+    background-color: #ff79e8;
+    min-height: 400px;
+    min-width: 700px;
+    
+    /*DEBUG*/
+    border: 3px dashed black;
 }
